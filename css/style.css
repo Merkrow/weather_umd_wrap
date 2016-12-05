@@ -1,0 +1,67 @@
+.result{
+    position:absolute;
+    z-index: 100;  
+    top:50%;  
+    left:50%;  
+    transform: translate(-50%, -50%); 
+    width: 450px;  
+    height: 200px; 
+    background-color: #F5DB5C;
+    font-family: 'Muli', sans-serif;
+    border-radius: 8px;
+}
+.main span, .main div {
+    color: rgba(43, 45, 66, 0.7);
+}
+.search {
+    margin-top: 10px;
+    text-align: center;
+}
+body {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.main {
+    text-align: center;color: black;
+    font-size: 36px;
+    position: relative;
+    height: 170px;
+    width: 100%;
+}
+.temp {
+    font-weight: 700;
+    font-size: 42px;
+}
+.wrap {
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 5px;
+    right: 35px;
+}
+
+.metric {
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 20px;
+    bottom: 20px;
+    right: 20px;
+}
+.weather_image {
+    border: 4px solid white;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.metric_temp {
+    display: inline-block;
+}
+.temp {
+    display: inline-block;
+}
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; cursor: default;}
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
